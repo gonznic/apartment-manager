@@ -94,6 +94,25 @@ The application also has **Dark and Light themes**. By default, the application 
 #### Settings
 <img src="https://user-images.githubusercontent.com/103907036/175792635-27d013fc-7f9d-4d97-a5ee-034f86de1421.png" width="370">
 
+#### Light Mode
+
+<details>
+  <summary>View Screenshots</summary>
+ 
+ <img src="https://user-images.githubusercontent.com/103907036/175793201-9976bd00-ac2c-43ec-a745-a1e9d720b275.png" width="200">
+
+ <img src="https://user-images.githubusercontent.com/103907036/175793208-c9404f56-6f1d-4074-9426-b2e54edd39be.png" width="200">
+ 
+ <img src="https://user-images.githubusercontent.com/103907036/175793213-65b1afef-6642-416b-9089-2917d4977159.png" width="200">
+ 
+ <img src="https://user-images.githubusercontent.com/103907036/175793193-cd70585e-b9f3-421b-a11d-659bd0218867.png" width="200">
+ 
+ <img src="https://user-images.githubusercontent.com/103907036/175793218-16f4fe4c-27ba-40fe-b3c4-ec4436835de0.png" width="200">
+
+</details>
+
+
+
 ## Updates
 Apartment Manager has all the basic features required to manage residential multi-family properties. However, there are still features left to implement. Some include:
 * Inspections
