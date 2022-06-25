@@ -49,7 +49,7 @@ public class Launch {
 		 * Log In
 		 */
 		
-		boolean skipLogIn = true;
+		boolean skipLogIn = false;
 		boolean isAdmin = true; // Only matters if skipLogIn = true
 		
 		if (!skipLogIn) {
