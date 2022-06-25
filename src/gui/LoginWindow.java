@@ -110,7 +110,7 @@ public class LoginWindow extends JFrame implements ActionListener, Page {
 		// Load image
 		BufferedImage loadImage = null;
 		try {
-			loadImage = ImageIO.read(new File("src/page/loginBg.jpg"));
+			loadImage = ImageIO.read(new File("src/gui/loginBg.jpg"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -145,14 +145,7 @@ public class LoginWindow extends JFrame implements ActionListener, Page {
 		title.setForeground(Theme.textPrimaryColor);
 		title.setBounds(0,70,400,50);
         panel.add(title);
-        
-        // Version
-        JLabel version = new JLabel("Version 0.1", SwingConstants.CENTER);
-		version.setFont(new Font("Arial", Font.PLAIN, 20));
-		version.setForeground(Theme.textPrimaryColor);
-		version.setBounds(0,100,400,50);
-        panel.add(version);
-		
+
         // User name label
 		JLabel userLabel = new JLabel("Username");
 		userLabel.setFont(new Font("Arial", Font.PLAIN, 20));
