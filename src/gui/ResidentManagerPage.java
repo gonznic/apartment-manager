@@ -925,7 +925,7 @@ public class ResidentManagerPage extends JPanel implements Page {
 	    JPanel rightSpacer = new JPanel();
 	    rightSpacer.setOpaque(false);
     	c.fill = GridBagConstraints.BOTH;
-		//c.weightx = 0.1;
+		c.weightx = 0.1;
 		c.weighty = 0.0;
         c.gridx = 10;
         c.gridy = 0;
@@ -954,6 +954,7 @@ public class ResidentManagerPage extends JPanel implements Page {
 		columnHeader2.setForeground(textColor);
 		columnHeader2.setBorder(new EmptyBorder(0, 4, 0, 4));
 		c.fill = GridBagConstraints.HORIZONTAL;
+		c.gridwidth = 1;
 		c.weightx = 0.1;
         c.gridx = 4;
         c.gridy = 0;
@@ -976,17 +977,11 @@ public class ResidentManagerPage extends JPanel implements Page {
 		columnSize6.setFont(new Font("Arial", Font.PLAIN, 14));
 		columnSize6.setForeground(textColor);
 		columnSize6.setBorder(new EmptyBorder(0, 4, 0, 4));
+		c.gridwidth = 1;
         c.gridx = 8;
         c.gridy = 0;
         residentTable.add(columnSize6, c);
         
-        // Delete
-        JLabel columnSize8 = new JLabel("Delete", SwingConstants.LEFT);
-		columnSize8.setFont(new Font("Arial", Font.PLAIN, 14));
-		columnSize8.setForeground(textColor);
-		c.weightx = 0.0;
-        c.gridx = 10;
-        c.gridy = 0;
         
         // Header underline
         JPanel headerLine = new JPanel();
@@ -1182,7 +1177,7 @@ public class ResidentManagerPage extends JPanel implements Page {
 				// Lease Start
 				JLabel tableColumn3 = new JLabel(
 						searchUserLease.getLeaseStart().format(DateTimeFormatter.ofPattern("MM/dd/yyyy")),
-						SwingConstants.LEFT);
+						SwingConstants.RIGHT);
 		    	tableColumn3.setFont(new Font("Arial", Font.PLAIN, 14));
 		    	tableColumn3.setForeground(textColorTitle);
 		    	tableColumn3.setBorder(new EmptyBorder(0, 4, 0, 4));
@@ -1241,7 +1236,7 @@ public class ResidentManagerPage extends JPanel implements Page {
 				c.fill = GridBagConstraints.BOTH;
 		        c.gridx = 7;
 		        c.gridy = currentRow;
-		        c.weightx = 0.0;
+		        c.weightx = 0.01;
 				c.weighty = 0.0;
 				c.gridwidth = 1;
 				residentTable.add(tableColumn4, c);
