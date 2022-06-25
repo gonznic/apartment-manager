@@ -43,7 +43,7 @@ This application also enhances **customer experience**. Residents can view their
 ##### Instructions
 * **Download** and unzip the latest version of Apartment Manager.
 * Open a **command line** (Command Prompt, Terminal).
-* In the command line, **open the directory where the apartment-manager source was extracted**. To do this, type `cd <directory>/src` in the command line. For example: `cd Downloads/apartment-manager/src` (If done correctly, you should not receive any additional messages. The command line should begin with the entered directory).
+* In the command line, **open the directory where the apartment-manager source was extracted**. To do this, type `cd <directory>/src` in the command line. For example: `cd Downloads/apartment-manager-main/src` (If done correctly, you should not receive any additional messages. The command line should begin with the entered directory).
 * **Compile** the java code: enter `javac Launch.java` into the command line (This should generate .class files for every .java file in the source directory).
 * **Run** the program by entering `java Launch.java` into the command line.
 
