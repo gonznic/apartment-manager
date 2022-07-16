@@ -129,7 +129,7 @@ Apartment Manager has all the basic features required to manage residential mult
 * Security Deposits
 * Screening Tenants
 
-Apartment Manager can also be expanded into a broader Property Management System (PMS), allowing an operator to manage different types of properties (commercial, hotel, industrial, etc.).
+This tool can also be expanded into a broader Property Management System (PMS), allowing an operator to manage different types of properties (commercial, hotel, industrial, etc.).
 
 
 ## License
